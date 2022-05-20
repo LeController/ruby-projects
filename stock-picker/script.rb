@@ -18,7 +18,7 @@ def stock_picker(array)
       end
     end
   end
-  return [starting_index, ending_index]
+  [starting_index, ending_index]
 end
 
-stock_picker([17,3,6,9,15,8,6,1,10])
+p stock_picker([17,3,6,9,15,8,6,1,10])
